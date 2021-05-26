@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>rocksdb</name>
+    <version>6.20.3</version>
+    <description>A library that provides an embeddable, persistent key-value store for fast storage.</description>
+    <maintainer email="tpetricek@gmail.com">Tomas Petricek</maintainer>
+    <license>Apache 2.0</license>
+    <url>http://rocksdb.org</url>
+    <author>See AUTHORS.</author>
+    <buildtool_depend>cmake</buildtool_depend>
+    <export>
+        <build_type>cmake</build_type>
+    </export>
+</package>
