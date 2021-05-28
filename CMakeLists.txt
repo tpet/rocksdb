@@ -982,7 +982,7 @@ option(WITH_CORE_TOOLS "build with ldb and sst_dump" ON)
 option(WITH_TOOLS "build with tools" ON)
 
 if(WITH_TESTS OR WITH_BENCHMARK_TOOLS OR WITH_TOOLS OR WITH_JNI OR JNI)
-  include_directories(SYSTEM ${PROJECT_SOURCE_DIR}/third-party/gtest-1.8.1/fused-src)
+  include_directories(BEFORE ${PROJECT_SOURCE_DIR}/third-party/gtest-1.8.1/fused-src)
 endif()
 if(WITH_JNI OR JNI)
   message(STATUS "JNI library is enabled")
